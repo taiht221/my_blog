@@ -1,0 +1,30 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/taiht221/my_blog.git"
+  },
+  "keywords": [
+    "my-blog",
+    "1st-nodejs"
+  ],
+  "author": "taiht",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taiht221/my_blog/issues"
+  },
+  "homepage": "https://github.com/taiht221/my_blog#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
